@@ -1,0 +1,1 @@
+SELECT CONTACT.display_name, EMPLOYER.organization_name FROM civicrm_contact AS CONTACT INNER JOIN civicrm_contact AS EMPLOYER ON CONTACT.employer_id=EMPLOYER.id ORDER BY CONTACT.display_name,EMPLOYER.organization_name
